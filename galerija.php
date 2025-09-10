@@ -1,9 +1,9 @@
 <?php
 // Povezivanje sa bazom
 $host = "localhost";
-$user = "root";      // promeni ako imaš drugog usera
-$pass = "";          // lozinka (ako postoji)
-$db   = "moja_baza"; // tvoja baza
+$user = "root";      
+$pass = "";         
+$db   = "moja_baza"; 
 
 $conn = new mysqli($host, $user, $pass, $db);
 
